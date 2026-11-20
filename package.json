@@ -1,0 +1,12 @@
+{
+  "name": "@saulcapital/chains",
+  "version": "0.1.0",
+  "description": "Shared chain registry (ids, names, explorers, retired chains) for saulcapital repos",
+  "license": "MIT",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "files": ["index.js", "index.d.ts", "saul_chains/chains.json"],
+  "scripts": {
+    "test": "node --test"
+  }
+}

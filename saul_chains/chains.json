@@ -1,0 +1,1850 @@
+{
+  "version": 1,
+  "chains": [
+    {
+      "slug": "ethereum",
+      "name": "Ethereum",
+      "chain_id": 1,
+      "aliases": [],
+      "explorer": "https://etherscan.io",
+      "tx_url": "https://etherscan.io/tx/{}",
+      "llama": "ethereum",
+      "native": {
+        "symbol": "ETH",
+        "decimals": 18,
+        "price": "coingecko:ethereum"
+      },
+      "status": "live"
+    },
+    {
+      "slug": "optimism",
+      "name": "OP Mainnet",
+      "chain_id": 10,
+      "aliases": [],
+      "explorer": "https://optimistic.etherscan.io",
+      "tx_url": "https://optimistic.etherscan.io/tx/{}",
+      "llama": "optimism",
+      "native": {
+        "symbol": "ETH",
+        "decimals": 18,
+        "price": "coingecko:ethereum"
+      },
+      "status": "live"
+    },
+    {
+      "slug": "flare",
+      "name": "Flare",
+      "chain_id": 14,
+      "aliases": [],
+      "explorer": "https://flare-explorer.flare.network",
+      "tx_url": "https://flare-explorer.flare.network/tx/{}",
+      "llama": "flare",
+      "native": {
+        "symbol": "FLR",
+        "decimals": 18,
+        "price": "coingecko:flare-networks"
+      },
+      "status": "live"
+    },
+    {
+      "slug": "cronos",
+      "name": "Cronos",
+      "chain_id": 25,
+      "aliases": [],
+      "explorer": "https://explorer.cronos.org",
+      "tx_url": "https://explorer.cronos.org/tx/{}",
+      "llama": "cronos",
+      "native": {
+        "symbol": "CRO",
+        "decimals": 18,
+        "price": "coingecko:crypto-com-chain"
+      },
+      "status": "live"
+    },
+    {
+      "slug": "rootstock",
+      "name": "Rootstock",
+      "chain_id": 30,
+      "aliases": [],
+      "explorer": "https://rootstock.blockscout.com",
+      "tx_url": "https://rootstock.blockscout.com/tx/{}",
+      "llama": "rootstock",
+      "native": {
+        "symbol": "RBTC",
+        "decimals": 18,
+        "price": "coingecko:rootstock"
+      },
+      "status": "live"
+    },
+    {
+      "slug": "lukso",
+      "name": "LUKSO",
+      "chain_id": 42,
+      "aliases": [],
+      "explorer": "https://explorer.execution.mainnet.lukso.network",
+      "tx_url": "https://explorer.execution.mainnet.lukso.network/tx/{}",
+      "llama": "lukso",
+      "native": {
+        "symbol": "LYX",
+        "decimals": 18,
+        "price": "coingecko:lukso-token-2"
+      },
+      "status": "live"
+    },
+    {
+      "slug": "xdc",
+      "name": "XDC",
+      "chain_id": 50,
+      "aliases": [],
+      "explorer": "https://xdcscan.com",
+      "tx_url": "https://xdcscan.com/tx/{}",
+      "llama": "xdc",
+      "native": {
+        "symbol": "XDC",
+        "decimals": 18,
+        "price": "coingecko:xdce-crowd-sale"
+      },
+      "status": "live"
+    },
+    {
+      "slug": "bsc",
+      "name": "BNB Chain",
+      "chain_id": 56,
+      "aliases": [],
+      "explorer": "https://bscscan.com",
+      "tx_url": "https://bscscan.com/tx/{}",
+      "llama": "bsc",
+      "native": {
+        "symbol": "BNB",
+        "decimals": 18,
+        "price": "coingecko:binancecoin"
+      },
+      "status": "live"
+    },
+    {
+      "slug": "kub",
+      "name": "KUB Chain",
+      "chain_id": 96,
+      "aliases": [],
+      "explorer": "https://www.kubscan.com",
+      "tx_url": "https://www.kubscan.com/tx/{}",
+      "llama": "bitkub",
+      "native": {
+        "symbol": "KUB",
+        "decimals": 18,
+        "price": "coingecko:bitkub-coin"
+      },
+      "status": "live"
+    },
+    {
+      "slug": "gnosis",
+      "name": "Gnosis Chain",
+      "chain_id": 100,
+      "aliases": [],
+      "explorer": "https://gnosisscan.io",
+      "tx_url": "https://gnosisscan.io/tx/{}",
+      "llama": "xdai",
+      "native": {
+        "symbol": "XDAI",
+        "decimals": 18,
+        "price": "coingecko:xdai"
+      },
+      "status": "live"
+    },
+    {
+      "slug": "heco",
+      "name": "HECO",
+      "chain_id": 128,
+      "aliases": [
+        "hecochain",
+        "huobiecochain"
+      ],
+      "explorer": null,
+      "tx_url": null,
+      "llama": null,
+      "native": null,
+      "status": "retired",
+      "retired": {
+        "source": "https://mdexdoc.gitbook.io/doc/announcement/announcement-on-the-heco-network-shutdown-and-clearance-of-certain-heco-assets.md"
+      }
+    },
+    {
+      "slug": "unichain",
+      "name": "Unichain",
+      "chain_id": 130,
+      "aliases": [],
+      "explorer": "https://uniscan.xyz",
+      "tx_url": "https://uniscan.xyz/tx/{}",
+      "llama": "unichain",
+      "native": {
+        "symbol": "ETH",
+        "decimals": 18,
+        "price": "coingecko:ethereum"
+      },
+      "status": "live"
+    },
+    {
+      "slug": "polygon",
+      "name": "Polygon PoS",
+      "chain_id": 137,
+      "aliases": [],
+      "explorer": "https://polygonscan.com",
+      "tx_url": "https://polygonscan.com/tx/{}",
+      "llama": "polygon",
+      "native": {
+        "symbol": "POL",
+        "decimals": 18,
+        "price": "coingecko:polygon-ecosystem-token"
+      },
+      "status": "live"
+    },
+    {
+      "slug": "monad",
+      "name": "Monad",
+      "chain_id": 143,
+      "aliases": [],
+      "explorer": "https://monadvision.com",
+      "tx_url": "https://monadvision.com/tx/{}",
+      "llama": "monad",
+      "native": {
+        "symbol": "MON",
+        "decimals": 18,
+        "price": "coingecko:monad"
+      },
+      "status": "live"
+    },
+    {
+      "slug": "sonic",
+      "name": "Sonic",
+      "chain_id": 146,
+      "aliases": [],
+      "explorer": "https://sonicscan.org",
+      "tx_url": "https://sonicscan.org/tx/{}",
+      "llama": "sonic",
+      "native": {
+        "symbol": "S",
+        "decimals": 18,
+        "price": "coingecko:sonic-3"
+      },
+      "status": "live"
+    },
+    {
+      "slug": "manta",
+      "name": "Manta Pacific",
+      "chain_id": 169,
+      "aliases": [],
+      "explorer": "https://pacific-explorer.manta.network",
+      "tx_url": "https://pacific-explorer.manta.network/tx/{}",
+      "llama": "manta",
+      "native": {
+        "symbol": "ETH",
+        "decimals": 18,
+        "price": "coingecko:ethereum"
+      },
+      "status": "live"
+    },
+    {
+      "slug": "hashkey",
+      "name": "HashKey Chain",
+      "chain_id": 177,
+      "aliases": [],
+      "explorer": "https://explorer.hsk.xyz",
+      "tx_url": "https://explorer.hsk.xyz/tx/{}",
+      "llama": "hsk",
+      "native": {
+        "symbol": "HSK",
+        "decimals": 18,
+        "price": "coingecko:hashkey-ecopoints"
+      },
+      "status": "live"
+    },
+    {
+      "slug": "mint",
+      "name": "Mint",
+      "chain_id": 185,
+      "aliases": [],
+      "explorer": "https://explorer.mintchain.io",
+      "tx_url": "https://explorer.mintchain.io/tx/{}",
+      "llama": "mint",
+      "native": {
+        "symbol": "ETH",
+        "decimals": 18,
+        "price": "coingecko:ethereum"
+      },
+      "status": "retired",
+      "retired": {
+        "source": "https://explorer.mintchain.io/"
+      }
+    },
+    {
+      "slug": "xlayer",
+      "name": "X Layer",
+      "chain_id": 196,
+      "aliases": [],
+      "explorer": "https://www.oklink.com/xlayer",
+      "tx_url": "https://www.oklink.com/xlayer/tx/{}",
+      "llama": "xlayer",
+      "native": {
+        "symbol": "OKB",
+        "decimals": 18,
+        "price": "coingecko:okb"
+      },
+      "status": "live"
+    },
+    {
+      "slug": "bttc",
+      "name": "BitTorrent Chain",
+      "chain_id": 199,
+      "aliases": [],
+      "explorer": "https://bttcscan.com",
+      "tx_url": "https://bttcscan.com/tx/{}",
+      "llama": "bittorrent",
+      "native": {
+        "symbol": "BTT",
+        "decimals": 18,
+        "price": "coingecko:bittorrent"
+      },
+      "status": "live"
+    },
+    {
+      "slug": "opbnb",
+      "name": "opBNB",
+      "chain_id": 204,
+      "aliases": [],
+      "explorer": "https://opbnb.bscscan.com",
+      "tx_url": "https://opbnb.bscscan.com/tx/{}",
+      "llama": "op_bnb",
+      "native": {
+        "symbol": "BNB",
+        "decimals": 18,
+        "price": "coingecko:binancecoin"
+      },
+      "status": "live"
+    },
+    {
+      "slug": "lens",
+      "name": "Lens",
+      "chain_id": 232,
+      "aliases": [],
+      "explorer": "https://explorer.lens.xyz",
+      "tx_url": "https://explorer.lens.xyz/tx/{}",
+      "llama": "lens",
+      "native": {
+        "symbol": "GHO",
+        "decimals": 18,
+        "price": "coingecko:gho"
+      },
+      "status": "live"
+    },
+    {
+      "slug": "fantom",
+      "name": "Fantom",
+      "chain_id": 250,
+      "aliases": [
+        "fantomopera"
+      ],
+      "explorer": "https://ftmscan.com",
+      "tx_url": "https://ftmscan.com/tx/{}",
+      "llama": "fantom",
+      "native": {
+        "symbol": "FTM",
+        "decimals": 18,
+        "price": "coingecko:fantom"
+      },
+      "status": "retired",
+      "retired": {
+        "source": "https://x.com/SonicLabs/status/2041551455254097988",
+        "note": "retired ahead of the announced shutdown date"
+      }
+    },
+    {
+      "slug": "fraxtal",
+      "name": "Fraxtal",
+      "chain_id": 252,
+      "aliases": [],
+      "explorer": "https://fraxscan.com",
+      "tx_url": "https://fraxscan.com/tx/{}",
+      "llama": "fraxtal",
+      "native": {
+        "symbol": "FRAX",
+        "decimals": 18,
+        "price": "coingecko:frax-share"
+      },
+      "status": "live"
+    },
+    {
+      "slug": "swan",
+      "name": "Swan Chain",
+      "chain_id": 254,
+      "aliases": [],
+      "explorer": "https://swanscan.io",
+      "tx_url": "https://swanscan.io/tx/{}",
+      "llama": "swan",
+      "native": {
+        "symbol": "ETH",
+        "decimals": 18,
+        "price": "coingecko:ethereum"
+      },
+      "status": "live"
+    },
+    {
+      "slug": "boba",
+      "name": "Boba Network",
+      "chain_id": 288,
+      "aliases": [],
+      "explorer": "https://bobascan.com",
+      "tx_url": "https://bobascan.com/tx/{}",
+      "llama": "boba",
+      "native": {
+        "symbol": "ETH",
+        "decimals": 18,
+        "price": "coingecko:ethereum"
+      },
+      "status": "live"
+    },
+    {
+      "slug": "orderly",
+      "name": "Orderly",
+      "chain_id": 291,
+      "aliases": [],
+      "explorer": "https://explorer.orderly.network",
+      "tx_url": "https://explorer.orderly.network/tx/{}",
+      "llama": "orderly",
+      "native": {
+        "symbol": "ETH",
+        "decimals": 18,
+        "price": "coingecko:ethereum"
+      },
+      "status": "live"
+    },
+    {
+      "slug": "zksync",
+      "name": "ZKsync Era",
+      "chain_id": 324,
+      "aliases": [],
+      "explorer": "https://explorer.zksync.io",
+      "tx_url": "https://explorer.zksync.io/tx/{}",
+      "llama": "era",
+      "native": {
+        "symbol": "ETH",
+        "decimals": 18,
+        "price": "coingecko:ethereum"
+      },
+      "status": "live"
+    },
+    {
+      "slug": "shape",
+      "name": "Shape",
+      "chain_id": 360,
+      "aliases": [],
+      "explorer": "https://shapescan.xyz",
+      "tx_url": "https://shapescan.xyz/tx/{}",
+      "llama": "shape",
+      "native": {
+        "symbol": "ETH",
+        "decimals": 18,
+        "price": "coingecko:ethereum"
+      },
+      "status": "live"
+    },
+    {
+      "slug": "cronos_zkevm",
+      "name": "Cronos zkEVM",
+      "chain_id": 388,
+      "aliases": [],
+      "explorer": "https://explorer.zkevm.cronos.org",
+      "tx_url": "https://explorer.zkevm.cronos.org/tx/{}",
+      "llama": "cronos_zkevm",
+      "native": {
+        "symbol": "zkCRO",
+        "decimals": 18,
+        "price": "coingecko:cronos-zkevm-cro"
+      },
+      "status": "live"
+    },
+    {
+      "slug": "worldchain",
+      "name": "World Chain",
+      "chain_id": 480,
+      "aliases": [],
+      "explorer": "https://worldscan.org",
+      "tx_url": "https://worldscan.org/tx/{}",
+      "llama": "wc",
+      "native": {
+        "symbol": "ETH",
+        "decimals": 18,
+        "price": "coingecko:ethereum"
+      },
+      "status": "live"
+    },
+    {
+      "slug": "redstone",
+      "name": "Redstone",
+      "chain_id": 690,
+      "aliases": [],
+      "explorer": "https://explorer.redstone.xyz",
+      "tx_url": "https://explorer.redstone.xyz/tx/{}",
+      "llama": "redstone",
+      "native": {
+        "symbol": "ETH",
+        "decimals": 18,
+        "price": "coingecko:ethereum"
+      },
+      "status": "retired",
+      "retired": {
+        "source": "https://x.com/latticexyz/status/2044103611072835744"
+      }
+    },
+    {
+      "slug": "derive",
+      "name": "Derive",
+      "chain_id": 957,
+      "aliases": [],
+      "explorer": "https://explorer.derive.xyz",
+      "tx_url": "https://explorer.derive.xyz/tx/{}",
+      "llama": "derive",
+      "native": {
+        "symbol": "ETH",
+        "decimals": 18,
+        "price": "coingecko:ethereum"
+      },
+      "status": "retired",
+      "retired": {
+        "source": "https://forums.derive.xyz/t/dip-launch-derive-v3/322",
+        "note": "Derive V3 settles on Ethereum; Derive Chain RPC disabled"
+      }
+    },
+    {
+      "slug": "stable",
+      "name": "Stable",
+      "chain_id": 988,
+      "aliases": [],
+      "explorer": "https://stablescan.xyz",
+      "tx_url": "https://stablescan.xyz/tx/{}",
+      "llama": "stable",
+      "native": {
+        "symbol": "USDT0",
+        "decimals": 18,
+        "price": "coingecko:usdt0"
+      },
+      "status": "live"
+    },
+    {
+      "slug": "hyperevm",
+      "name": "HyperEVM",
+      "chain_id": 999,
+      "aliases": [],
+      "explorer": "https://hyperevmscan.io",
+      "tx_url": "https://hyperevmscan.io/tx/{}",
+      "llama": "hyperliquid",
+      "native": {
+        "symbol": "HYPE",
+        "decimals": 18,
+        "price": "coingecko:hyperliquid"
+      },
+      "status": "live"
+    },
+    {
+      "slug": "metis",
+      "name": "Metis",
+      "chain_id": 1088,
+      "aliases": [],
+      "explorer": "https://andromeda-explorer.metis.io",
+      "tx_url": "https://andromeda-explorer.metis.io/tx/{}",
+      "llama": "metis",
+      "native": {
+        "symbol": "METIS",
+        "decimals": 18,
+        "price": "coingecko:metis-token"
+      },
+      "status": "live"
+    },
+    {
+      "slug": "polygon_zkevm",
+      "name": "Polygon zkEVM",
+      "chain_id": 1101,
+      "aliases": [],
+      "explorer": "https://zkevm.polygonscan.com",
+      "tx_url": "https://zkevm.polygonscan.com/tx/{}",
+      "llama": "polygon_zkevm",
+      "native": {
+        "symbol": "ETH",
+        "decimals": 18,
+        "price": "coingecko:ethereum"
+      },
+      "status": "retired",
+      "retired": {
+        "source": "https://forum.polygon.technology/t/polygon-zkevm-mainnet-beta-sunset-claim-your-funds/21856"
+      }
+    },
+    {
+      "slug": "coredao",
+      "name": "Core",
+      "chain_id": 1116,
+      "aliases": [],
+      "explorer": "https://scan.coredao.org",
+      "tx_url": "https://scan.coredao.org/tx/{}",
+      "llama": "core",
+      "native": {
+        "symbol": "CORE",
+        "decimals": 18,
+        "price": "coingecko:coredaoorg"
+      },
+      "status": "live"
+    },
+    {
+      "slug": "lisk",
+      "name": "Lisk",
+      "chain_id": 1135,
+      "aliases": [],
+      "explorer": "https://blockscout.lisk.com",
+      "tx_url": "https://blockscout.lisk.com/tx/{}",
+      "llama": "lisk",
+      "native": {
+        "symbol": "ETH",
+        "decimals": 18,
+        "price": "coingecko:ethereum"
+      },
+      "status": "retired",
+      "retired": {
+        "source": "https://x.com/Lisk/status/2117291670089986160"
+      }
+    },
+    {
+      "slug": "moonbeam",
+      "name": "Moonbeam",
+      "chain_id": 1284,
+      "aliases": [],
+      "explorer": "https://moonscan.io",
+      "tx_url": "https://moonscan.io/tx/{}",
+      "llama": "moonbeam",
+      "native": {
+        "symbol": "GLMR",
+        "decimals": 18,
+        "price": "coingecko:moonbeam"
+      },
+      "status": "live"
+    },
+    {
+      "slug": "moonriver",
+      "name": "Moonriver",
+      "chain_id": 1285,
+      "aliases": [],
+      "explorer": "https://moonriver.moonscan.io",
+      "tx_url": "https://moonriver.moonscan.io/tx/{}",
+      "llama": "moonriver",
+      "native": {
+        "symbol": "MOVR",
+        "decimals": 18,
+        "price": "coingecko:moonriver"
+      },
+      "status": "live"
+    },
+    {
+      "slug": "sei",
+      "name": "Sei",
+      "chain_id": 1329,
+      "aliases": [],
+      "explorer": "https://seiscan.io",
+      "tx_url": "https://seiscan.io/tx/{}",
+      "llama": "sei",
+      "native": {
+        "symbol": "SEI",
+        "decimals": 18,
+        "price": "coingecko:sei-network"
+      },
+      "status": "live"
+    },
+    {
+      "slug": "openzk",
+      "name": "OpenZK",
+      "chain_id": 1345,
+      "aliases": [],
+      "explorer": "https://explorer.openzk.net",
+      "tx_url": "https://explorer.openzk.net/tx/{}",
+      "llama": "openzk",
+      "native": {
+        "symbol": "ozETH",
+        "decimals": 18,
+        "price": "coingecko:ethereum"
+      },
+      "status": "live"
+    },
+    {
+      "slug": "story",
+      "name": "Story",
+      "chain_id": 1514,
+      "aliases": [],
+      "explorer": "https://www.storyscan.io",
+      "tx_url": "https://www.storyscan.io/tx/{}",
+      "llama": "story",
+      "native": {
+        "symbol": "IP",
+        "decimals": 18,
+        "price": "coingecko:story-2"
+      },
+      "status": "live"
+    },
+    {
+      "slug": "gravity",
+      "name": "Gravity Alpha",
+      "chain_id": 1625,
+      "aliases": [
+        "gravityalphamainnet"
+      ],
+      "explorer": "https://explorer.gravity.xyz",
+      "tx_url": "https://explorer.gravity.xyz/tx/{}",
+      "llama": "gravity",
+      "native": {
+        "symbol": "G",
+        "decimals": 18,
+        "price": "coingecko:g-token"
+      },
+      "status": "retired",
+      "retired": {
+        "source": "https://help.galxe.com/en/articles/16010489-gravity-l1-mainnet-is-now-live"
+      }
+    },
+    {
+      "slug": "trex",
+      "name": "T-REX",
+      "chain_id": 1628,
+      "aliases": [],
+      "explorer": "https://explorer.trex.xyz",
+      "tx_url": "https://explorer.trex.xyz/tx/{}",
+      "llama": "trex",
+      "native": {
+        "symbol": "ETH",
+        "decimals": 18,
+        "price": "coingecko:ethereum"
+      },
+      "status": "live"
+    },
+    {
+      "slug": "pharos",
+      "name": "Pharos",
+      "chain_id": 1672,
+      "aliases": [],
+      "explorer": "https://pharosscan.xyz",
+      "tx_url": "https://pharosscan.xyz/tx/{}",
+      "llama": "pharos",
+      "native": {
+        "symbol": "PROS",
+        "decimals": 18,
+        "price": "coingecko:pharos-network"
+      },
+      "status": "live"
+    },
+    {
+      "slug": "reya",
+      "name": "Reya",
+      "chain_id": 1729,
+      "aliases": [],
+      "explorer": "https://explorer.reya.network",
+      "tx_url": "https://explorer.reya.network/tx/{}",
+      "llama": "reya",
+      "native": {
+        "symbol": "ETH",
+        "decimals": 18,
+        "price": "coingecko:ethereum"
+      },
+      "status": "live"
+    },
+    {
+      "slug": "metal",
+      "name": "Metal L2",
+      "chain_id": 1750,
+      "aliases": [],
+      "explorer": "https://explorer.metall2.com",
+      "tx_url": "https://explorer.metall2.com/tx/{}",
+      "llama": "metal",
+      "native": {
+        "symbol": "ETH",
+        "decimals": 18,
+        "price": "coingecko:ethereum"
+      },
+      "status": "live"
+    },
+    {
+      "slug": "injective_evm",
+      "name": "Injective EVM",
+      "chain_id": 1776,
+      "aliases": [],
+      "explorer": "https://blockscout.injective.network",
+      "tx_url": "https://blockscout.injective.network/tx/{}",
+      "llama": "injective",
+      "native": {
+        "symbol": "INJ",
+        "decimals": 18,
+        "price": "coingecko:injective-protocol"
+      },
+      "status": "live"
+    },
+    {
+      "slug": "soneium",
+      "name": "Soneium",
+      "chain_id": 1868,
+      "aliases": [],
+      "explorer": "https://soneium.blockscout.com",
+      "tx_url": "https://soneium.blockscout.com/tx/{}",
+      "llama": "soneium",
+      "native": {
+        "symbol": "ETH",
+        "decimals": 18,
+        "price": "coingecko:ethereum"
+      },
+      "status": "live"
+    },
+    {
+      "slug": "swellchain",
+      "name": "Swellchain",
+      "chain_id": 1923,
+      "aliases": [
+        "swell"
+      ],
+      "explorer": "https://explorer.swellnetwork.io",
+      "tx_url": "https://explorer.swellnetwork.io/tx/{}",
+      "llama": "swellchain",
+      "native": {
+        "symbol": "ETH",
+        "decimals": 18,
+        "price": "coingecko:ethereum"
+      },
+      "status": "retired",
+      "retired": {
+        "source": "https://www.swellnetwork.io/post/sunsetting-swellchain-from-l2-to-faro"
+      }
+    },
+    {
+      "slug": "dogechain",
+      "name": "Dogechain",
+      "chain_id": 2000,
+      "aliases": [],
+      "explorer": "https://explorer.dogechain.dog",
+      "tx_url": "https://explorer.dogechain.dog/tx/{}",
+      "llama": "dogechain",
+      "native": {
+        "symbol": "WDOGE",
+        "decimals": 18,
+        "price": "coingecko:dogecoin"
+      },
+      "status": "live"
+    },
+    {
+      "slug": "ronin",
+      "name": "Ronin",
+      "chain_id": 2020,
+      "aliases": [],
+      "explorer": "https://app.roninchain.com",
+      "tx_url": "https://app.roninchain.com/tx/{}",
+      "llama": "ronin",
+      "native": {
+        "symbol": "RON",
+        "decimals": 18,
+        "price": "coingecko:ronin"
+      },
+      "status": "live"
+    },
+    {
+      "slug": "kava",
+      "name": "Kava",
+      "chain_id": 2222,
+      "aliases": [],
+      "explorer": "https://kavascan.com",
+      "tx_url": "https://kavascan.com/tx/{}",
+      "llama": "kava",
+      "native": {
+        "symbol": "KAVA",
+        "decimals": 18,
+        "price": "coingecko:kava"
+      },
+      "status": "live"
+    },
+    {
+      "slug": "silicon_zkevm",
+      "name": "Silicon zkEVM",
+      "chain_id": 2355,
+      "aliases": [],
+      "explorer": "https://scope.silicon.network",
+      "tx_url": "https://scope.silicon.network/tx/{}",
+      "llama": "silicon_zk",
+      "native": {
+        "symbol": "ETH",
+        "decimals": 18,
+        "price": "coingecko:ethereum"
+      },
+      "status": "retired",
+      "retired": {
+        "source": "https://cryptoticker.io/en/silicon-network-shutdown-bridge-withdrawal-deadline",
+        "note": "deposits stopped 2026-09-02, withdrawals close 2026-12-31; retired ahead of that date"
+      }
+    },
+    {
+      "slug": "abstract",
+      "name": "Abstract",
+      "chain_id": 2741,
+      "aliases": [],
+      "explorer": "https://abscan.org",
+      "tx_url": "https://abscan.org/tx/{}",
+      "llama": "abstract",
+      "native": {
+        "symbol": "ETH",
+        "decimals": 18,
+        "price": "coingecko:ethereum"
+      },
+      "status": "retired",
+      "retired": {
+        "source": "https://migrate.abs.xyz/",
+        "note": "retired ahead of the announced shutdown date"
+      }
+    },
+    {
+      "slug": "morph",
+      "name": "Morph",
+      "chain_id": 2818,
+      "aliases": [],
+      "explorer": "https://explorer.morphl2.io",
+      "tx_url": "https://explorer.morphl2.io/tx/{}",
+      "llama": "morph",
+      "native": {
+        "symbol": "ETH",
+        "decimals": 18,
+        "price": "coingecko:ethereum"
+      },
+      "status": "live"
+    },
+    {
+      "slug": "botanix",
+      "name": "Botanix",
+      "chain_id": 3637,
+      "aliases": [],
+      "explorer": null,
+      "tx_url": null,
+      "llama": null,
+      "native": null,
+      "status": "retired",
+      "retired": {
+        "source": "https://www.alchemy.com/docs/reference/botanix-deprecation-notice"
+      }
+    },
+    {
+      "slug": "citrea",
+      "name": "Citrea",
+      "chain_id": 4114,
+      "aliases": [],
+      "explorer": "https://explorer.mainnet.citrea.xyz",
+      "tx_url": "https://explorer.mainnet.citrea.xyz/tx/{}",
+      "llama": "citrea",
+      "native": {
+        "symbol": "CBTC",
+        "decimals": 18,
+        "price": "coingecko:bitcoin"
+      },
+      "status": "live"
+    },
+    {
+      "slug": "sx_rollup",
+      "name": "SX Rollup",
+      "chain_id": 4162,
+      "aliases": [],
+      "explorer": "https://explorerl2.sx.technology",
+      "tx_url": "https://explorerl2.sx.technology/tx/{}",
+      "llama": "sx_rollup",
+      "native": {
+        "symbol": "SX",
+        "decimals": 18,
+        "price": "coingecko:sx-network"
+      },
+      "status": "live"
+    },
+    {
+      "slug": "merlin",
+      "name": "Merlin",
+      "chain_id": 4200,
+      "aliases": [],
+      "explorer": "https://scan.merlinchain.io",
+      "tx_url": "https://scan.merlinchain.io/tx/{}",
+      "llama": "merlin",
+      "native": {
+        "symbol": "BTC",
+        "decimals": 18,
+        "price": "coingecko:bitcoin"
+      },
+      "status": "live"
+    },
+    {
+      "slug": "megaeth",
+      "name": "MegaETH",
+      "chain_id": 4326,
+      "aliases": [],
+      "explorer": "https://mega.etherscan.io",
+      "tx_url": "https://mega.etherscan.io/tx/{}",
+      "llama": "megaeth",
+      "native": {
+        "symbol": "ETH",
+        "decimals": 18,
+        "price": "coingecko:ethereum"
+      },
+      "status": "live"
+    },
+    {
+      "slug": "beam",
+      "name": "Beam",
+      "chain_id": 4337,
+      "aliases": [],
+      "explorer": "https://subnets.avax.network/beam",
+      "tx_url": "https://subnets.avax.network/beam/tx/{}",
+      "llama": "beam",
+      "native": {
+        "symbol": "BEAM",
+        "decimals": 18,
+        "price": "coingecko:beam-2"
+      },
+      "status": "live"
+    },
+    {
+      "slug": "robinhood",
+      "name": "Robinhood Chain",
+      "chain_id": 4663,
+      "aliases": [],
+      "explorer": "https://explorer.mainnet.chain.robinhood.com",
+      "tx_url": "https://explorer.mainnet.chain.robinhood.com/tx/{}",
+      "llama": "robinhood",
+      "native": {
+        "symbol": "ETH",
+        "decimals": 18,
+        "price": "coingecko:ethereum"
+      },
+      "status": "live"
+    },
+    {
+      "slug": "mantle",
+      "name": "Mantle",
+      "chain_id": 5000,
+      "aliases": [],
+      "explorer": "https://mantlescan.xyz",
+      "tx_url": "https://mantlescan.xyz/tx/{}",
+      "llama": "mantle",
+      "native": {
+        "symbol": "MNT",
+        "decimals": 18,
+        "price": "coingecko:mantle"
+      },
+      "status": "live"
+    },
+    {
+      "slug": "somnia",
+      "name": "Somnia",
+      "chain_id": 5031,
+      "aliases": [],
+      "explorer": "https://explorer.somnia.network",
+      "tx_url": "https://explorer.somnia.network/tx/{}",
+      "llama": "somnia",
+      "native": {
+        "symbol": "SOMI",
+        "decimals": 18,
+        "price": "coingecko:somnia"
+      },
+      "status": "live"
+    },
+    {
+      "slug": "arc",
+      "name": "Arc",
+      "chain_id": 5042,
+      "aliases": [],
+      "explorer": "https://explorer.arc.io",
+      "tx_url": "https://explorer.arc.io/tx/{}",
+      "llama": "arc",
+      "native": {
+        "symbol": "USDC",
+        "decimals": 18,
+        "price": "coingecko:usd-coin"
+      },
+      "status": "live"
+    },
+    {
+      "slug": "superseed",
+      "name": "Superseed",
+      "chain_id": 5330,
+      "aliases": [],
+      "explorer": "https://explorer.superseed.xyz",
+      "tx_url": "https://explorer.superseed.xyz/tx/{}",
+      "llama": "superseed",
+      "native": {
+        "symbol": "ETH",
+        "decimals": 18,
+        "price": "coingecko:ethereum"
+      },
+      "status": "retired",
+      "retired": {
+        "source": "https://superseed.xyz/chain"
+      }
+    },
+    {
+      "slug": "nibiru",
+      "name": "Nibiru",
+      "chain_id": 6900,
+      "aliases": [],
+      "explorer": "https://nibiscan.io",
+      "tx_url": "https://nibiscan.io/tx/{}",
+      "llama": "nibiru",
+      "native": {
+        "symbol": "NIBI",
+        "decimals": 18,
+        "price": "coingecko:nibiru"
+      },
+      "status": "live"
+    },
+    {
+      "slug": "zetachain",
+      "name": "ZetaChain",
+      "chain_id": 7000,
+      "aliases": [],
+      "explorer": "https://zetascan.com",
+      "tx_url": "https://zetascan.com/tx/{}",
+      "llama": "zeta",
+      "native": {
+        "symbol": "ZETA",
+        "decimals": 18,
+        "price": "coingecko:zetachain"
+      },
+      "status": "live"
+    },
+    {
+      "slug": "cyber",
+      "name": "Cyber",
+      "chain_id": 7560,
+      "aliases": [],
+      "explorer": "https://cyberscan.co",
+      "tx_url": "https://cyberscan.co/tx/{}",
+      "llama": "cyber",
+      "native": {
+        "symbol": "ETH",
+        "decimals": 18,
+        "price": "coingecko:ethereum"
+      },
+      "status": "live"
+    },
+    {
+      "slug": "canto",
+      "name": "Canto",
+      "chain_id": 7700,
+      "aliases": [],
+      "explorer": "https://tuber.build",
+      "tx_url": "https://tuber.build/tx/{}",
+      "llama": "canto",
+      "native": {
+        "symbol": "CANTO",
+        "decimals": 18,
+        "price": "coingecko:canto"
+      },
+      "status": "live"
+    },
+    {
+      "slug": "arenaz",
+      "name": "Arena-Z",
+      "chain_id": 7897,
+      "aliases": [],
+      "explorer": "https://explorer.arena-z.gg",
+      "tx_url": "https://explorer.arena-z.gg/tx/{}",
+      "llama": "arena-z",
+      "native": {
+        "symbol": "ETH",
+        "decimals": 18,
+        "price": "coingecko:ethereum"
+      },
+      "status": "live"
+    },
+    {
+      "slug": "polynomial",
+      "name": "Polynomial",
+      "chain_id": 8008,
+      "aliases": [],
+      "explorer": "https://polynomialscan.io",
+      "tx_url": "https://polynomialscan.io/tx/{}",
+      "llama": "polynomial",
+      "native": {
+        "symbol": "ETH",
+        "decimals": 18,
+        "price": "coingecko:ethereum"
+      },
+      "status": "live"
+    },
+    {
+      "slug": "klaytn",
+      "name": "Kaia",
+      "chain_id": 8217,
+      "aliases": [],
+      "explorer": "https://kaiascan.io",
+      "tx_url": "https://kaiascan.io/tx/{}",
+      "llama": "klaytn",
+      "native": {
+        "symbol": "KAIA",
+        "decimals": 18,
+        "price": "coingecko:kaia"
+      },
+      "status": "live"
+    },
+    {
+      "slug": "base",
+      "name": "Base",
+      "chain_id": 8453,
+      "aliases": [],
+      "explorer": "https://basescan.org",
+      "tx_url": "https://basescan.org/tx/{}",
+      "llama": "base",
+      "native": {
+        "symbol": "ETH",
+        "decimals": 18,
+        "price": "coingecko:ethereum"
+      },
+      "status": "live"
+    },
+    {
+      "slug": "plasma",
+      "name": "Plasma",
+      "chain_id": 9745,
+      "aliases": [],
+      "explorer": "https://plasmascan.to",
+      "tx_url": "https://plasmascan.to/tx/{}",
+      "llama": "plasma",
+      "native": {
+        "symbol": "XPL",
+        "decimals": 18,
+        "price": "coingecko:plasma"
+      },
+      "status": "live"
+    },
+    {
+      "slug": "gatelayer",
+      "name": "Gate Layer",
+      "chain_id": 10088,
+      "aliases": [],
+      "explorer": "https://www.gatescan.org/gatelayer",
+      "tx_url": "https://www.gatescan.org/gatelayer/tx/{}",
+      "llama": "gatelayer",
+      "native": {
+        "symbol": "GT",
+        "decimals": 18,
+        "price": "coingecko:gatechain-token"
+      },
+      "status": "live"
+    },
+    {
+      "slug": "immutable",
+      "name": "Immutable zkEVM",
+      "chain_id": 13371,
+      "aliases": [],
+      "explorer": "https://explorer.immutable.com",
+      "tx_url": "https://explorer.immutable.com/tx/{}",
+      "llama": "imx",
+      "native": {
+        "symbol": "IMX",
+        "decimals": 18,
+        "price": "coingecko:immutable-x"
+      },
+      "status": "live"
+    },
+    {
+      "slug": "apechain",
+      "name": "ApeChain",
+      "chain_id": 33139,
+      "aliases": [],
+      "explorer": "https://apescan.io",
+      "tx_url": "https://apescan.io/tx/{}",
+      "llama": "apechain",
+      "native": {
+        "symbol": "APE",
+        "decimals": 18,
+        "price": "coingecko:apecoin"
+      },
+      "status": "live"
+    },
+    {
+      "slug": "funki",
+      "name": "Funki",
+      "chain_id": 33979,
+      "aliases": [],
+      "explorer": "https://funki.superscan.network",
+      "tx_url": "https://funki.superscan.network/tx/{}",
+      "llama": "funki",
+      "native": {
+        "symbol": "ETH",
+        "decimals": 18,
+        "price": "coingecko:ethereum"
+      },
+      "status": "live"
+    },
+    {
+      "slug": "mode",
+      "name": "Mode",
+      "chain_id": 34443,
+      "aliases": [],
+      "explorer": "https://explorer.mode.network",
+      "tx_url": "https://explorer.mode.network/tx/{}",
+      "llama": "mode",
+      "native": {
+        "symbol": "ETH",
+        "decimals": 18,
+        "price": "coingecko:ethereum"
+      },
+      "status": "live"
+    },
+    {
+      "slug": "adi",
+      "name": "ADI Chain",
+      "chain_id": 36900,
+      "aliases": [],
+      "explorer": "https://explorer-bls.adifoundation.ai",
+      "tx_url": "https://explorer-bls.adifoundation.ai/tx/{}",
+      "llama": "adi",
+      "native": {
+        "symbol": "ADI",
+        "decimals": 18,
+        "price": "coingecko:adi-token"
+      },
+      "status": "live"
+    },
+    {
+      "slug": "edu_chain",
+      "name": "EDU Chain",
+      "chain_id": 41923,
+      "aliases": [],
+      "explorer": "https://educhain.blockscout.com",
+      "tx_url": "https://educhain.blockscout.com/tx/{}",
+      "llama": "edu_chain",
+      "native": {
+        "symbol": "EDU",
+        "decimals": 18,
+        "price": "coingecko:edu-coin"
+      },
+      "status": "live"
+    },
+    {
+      "slug": "arbitrum",
+      "name": "Arbitrum One",
+      "chain_id": 42161,
+      "aliases": [],
+      "explorer": "https://arbiscan.io",
+      "tx_url": "https://arbiscan.io/tx/{}",
+      "llama": "arbitrum",
+      "native": {
+        "symbol": "ETH",
+        "decimals": 18,
+        "price": "coingecko:ethereum"
+      },
+      "status": "live"
+    },
+    {
+      "slug": "arbitrum_nova",
+      "name": "Arbitrum Nova",
+      "chain_id": 42170,
+      "aliases": [],
+      "explorer": "https://nova.arbiscan.io",
+      "tx_url": "https://nova.arbiscan.io/tx/{}",
+      "llama": "arbitrum_nova",
+      "native": {
+        "symbol": "ETH",
+        "decimals": 18,
+        "price": "coingecko:ethereum"
+      },
+      "status": "live"
+    },
+    {
+      "slug": "celo",
+      "name": "Celo",
+      "chain_id": 42220,
+      "aliases": [],
+      "explorer": "https://celoscan.io",
+      "tx_url": "https://celoscan.io/tx/{}",
+      "llama": "celo",
+      "native": {
+        "symbol": "CELO",
+        "decimals": 18,
+        "price": "coingecko:celo"
+      },
+      "status": "live"
+    },
+    {
+      "slug": "etherlink",
+      "name": "Etherlink",
+      "chain_id": 42793,
+      "aliases": [],
+      "explorer": "https://explorer.etherlink.com",
+      "tx_url": "https://explorer.etherlink.com/tx/{}",
+      "llama": "etherlink",
+      "native": {
+        "symbol": "XTZ",
+        "decimals": 18,
+        "price": "coingecko:tezos"
+      },
+      "status": "live"
+    },
+    {
+      "slug": "hemi",
+      "name": "Hemi",
+      "chain_id": 43111,
+      "aliases": [],
+      "explorer": "https://explorer.hemi.xyz",
+      "tx_url": "https://explorer.hemi.xyz/tx/{}",
+      "llama": "hemi",
+      "native": {
+        "symbol": "ETH",
+        "decimals": 18,
+        "price": "coingecko:ethereum"
+      },
+      "status": "live"
+    },
+    {
+      "slug": "avalanche",
+      "name": "Avalanche",
+      "chain_id": 43114,
+      "aliases": [],
+      "explorer": "https://snowtrace.io",
+      "tx_url": "https://snowtrace.io/tx/{}",
+      "llama": "avax",
+      "native": {
+        "symbol": "AVAX",
+        "decimals": 18,
+        "price": "coingecko:avalanche-2"
+      },
+      "status": "live"
+    },
+    {
+      "slug": "zircuit",
+      "name": "Zircuit",
+      "chain_id": 48900,
+      "aliases": [],
+      "explorer": "https://explorer.zircuit.com",
+      "tx_url": "https://explorer.zircuit.com/tx/{}",
+      "llama": "zircuit",
+      "native": {
+        "symbol": "ETH",
+        "decimals": 18,
+        "price": "coingecko:ethereum"
+      },
+      "status": "live"
+    },
+    {
+      "slug": "sophon",
+      "name": "Sophon",
+      "chain_id": 50104,
+      "aliases": [],
+      "explorer": "https://explorer.sophon.xyz",
+      "tx_url": "https://explorer.sophon.xyz/tx/{}",
+      "llama": "sophon",
+      "native": {
+        "symbol": "SOPH",
+        "decimals": 18,
+        "price": "coingecko:sophon"
+      },
+      "status": "retired",
+      "retired": {
+        "source": "https://docs.sophon.xyz/migration",
+        "note": "retired ahead of the announced shutdown date"
+      }
+    },
+    {
+      "slug": "dfk",
+      "name": "DFK Chain",
+      "chain_id": 53935,
+      "aliases": [],
+      "explorer": "https://subnets.avax.network/defi-kingdoms",
+      "tx_url": "https://subnets.avax.network/defi-kingdoms/tx/{}",
+      "llama": "dfk",
+      "native": {
+        "symbol": "JEWEL",
+        "decimals": 18,
+        "price": "coingecko:defi-kingdoms"
+      },
+      "status": "live"
+    },
+    {
+      "slug": "ink",
+      "name": "Ink",
+      "chain_id": 57073,
+      "aliases": [],
+      "explorer": "https://explorer.inkonchain.com",
+      "tx_url": "https://explorer.inkonchain.com/tx/{}",
+      "llama": "ink",
+      "native": {
+        "symbol": "ETH",
+        "decimals": 18,
+        "price": "coingecko:ethereum"
+      },
+      "status": "live"
+    },
+    {
+      "slug": "linea",
+      "name": "Linea",
+      "chain_id": 59144,
+      "aliases": [],
+      "explorer": "https://lineascan.build",
+      "tx_url": "https://lineascan.build/tx/{}",
+      "llama": "linea",
+      "native": {
+        "symbol": "ETH",
+        "decimals": 18,
+        "price": "coingecko:ethereum"
+      },
+      "status": "live"
+    },
+    {
+      "slug": "bob",
+      "name": "BOB",
+      "chain_id": 60808,
+      "aliases": [],
+      "explorer": "https://explorer.gobob.xyz",
+      "tx_url": "https://explorer.gobob.xyz/tx/{}",
+      "llama": "bob",
+      "native": {
+        "symbol": "ETH",
+        "decimals": 18,
+        "price": "coingecko:ethereum"
+      },
+      "status": "live"
+    },
+    {
+      "slug": "berachain",
+      "name": "Berachain",
+      "chain_id": 80094,
+      "aliases": [],
+      "explorer": "https://berascan.com",
+      "tx_url": "https://berascan.com/tx/{}",
+      "llama": "berachain",
+      "native": {
+        "symbol": "BERA",
+        "decimals": 18,
+        "price": "coingecko:berachain-bera"
+      },
+      "status": "live"
+    },
+    {
+      "slug": "codex",
+      "name": "Codex",
+      "chain_id": 81224,
+      "aliases": [],
+      "explorer": "https://explorer.codex.xyz",
+      "tx_url": "https://explorer.codex.xyz/tx/{}",
+      "llama": "codex",
+      "native": {
+        "symbol": "ETH",
+        "decimals": 18,
+        "price": "coingecko:ethereum"
+      },
+      "status": "live"
+    },
+    {
+      "slug": "blast",
+      "name": "Blast",
+      "chain_id": 81457,
+      "aliases": [],
+      "explorer": "https://blastscan.io",
+      "tx_url": "https://blastscan.io/tx/{}",
+      "llama": "blast",
+      "native": {
+        "symbol": "ETH",
+        "decimals": 18,
+        "price": "coingecko:ethereum"
+      },
+      "status": "retired",
+      "retired": {
+        "source": "https://x.com/blast/status/2117993462356197406"
+      }
+    },
+    {
+      "slug": "chiliz",
+      "name": "Chiliz Chain",
+      "chain_id": 88888,
+      "aliases": [],
+      "explorer": "https://chiliscan.com",
+      "tx_url": "https://chiliscan.com/tx/{}",
+      "llama": "chz",
+      "native": {
+        "symbol": "CHZ",
+        "decimals": 18,
+        "price": "coingecko:chiliz"
+      },
+      "status": "live"
+    },
+    {
+      "slug": "plume",
+      "name": "Plume",
+      "chain_id": 98866,
+      "aliases": [],
+      "explorer": "https://explorer.plume.org",
+      "tx_url": "https://explorer.plume.org/tx/{}",
+      "llama": "plume_mainnet",
+      "native": {
+        "symbol": "PLUME",
+        "decimals": 18,
+        "price": "coingecko:plume"
+      },
+      "status": "live"
+    },
+    {
+      "slug": "taiko",
+      "name": "Taiko",
+      "chain_id": 167000,
+      "aliases": [],
+      "explorer": "https://taikoscan.io",
+      "tx_url": "https://taikoscan.io/tx/{}",
+      "llama": "taiko",
+      "native": {
+        "symbol": "ETH",
+        "decimals": 18,
+        "price": "coingecko:ethereum"
+      },
+      "status": "live"
+    },
+    {
+      "slug": "dexalot",
+      "name": "Dexalot",
+      "chain_id": 432204,
+      "aliases": [],
+      "explorer": "https://subnets.avax.network/dexalot",
+      "tx_url": "https://subnets.avax.network/dexalot/tx/{}",
+      "llama": "dexalot",
+      "native": {
+        "symbol": "ALOT",
+        "decimals": 18,
+        "price": "coingecko:dexalot"
+      },
+      "status": "live"
+    },
+    {
+      "slug": "scroll",
+      "name": "Scroll",
+      "chain_id": 534352,
+      "aliases": [],
+      "explorer": "https://scrollscan.com",
+      "tx_url": "https://scrollscan.com/tx/{}",
+      "llama": "scroll",
+      "native": {
+        "symbol": "ETH",
+        "decimals": 18,
+        "price": "coingecko:ethereum"
+      },
+      "status": "live"
+    },
+    {
+      "slug": "zero",
+      "name": "ZERO Network",
+      "chain_id": 543210,
+      "aliases": [],
+      "explorer": "https://explorer.zero.network",
+      "tx_url": "https://explorer.zero.network/tx/{}",
+      "llama": "zero_network",
+      "native": {
+        "symbol": "ETH",
+        "decimals": 18,
+        "price": "coingecko:ethereum"
+      },
+      "status": "retired",
+      "retired": {
+        "source": "https://www.theblock.co/amp/post/402296/zero-network-wind-down"
+      }
+    },
+    {
+      "slug": "xai",
+      "name": "Xai",
+      "chain_id": 660279,
+      "aliases": [],
+      "explorer": "https://explorer.xai-chain.net",
+      "tx_url": "https://explorer.xai-chain.net/tx/{}",
+      "llama": "xai",
+      "native": {
+        "symbol": "XAI",
+        "decimals": 18,
+        "price": "coingecko:xai-blockchain"
+      },
+      "status": "live"
+    },
+    {
+      "slug": "katana",
+      "name": "Katana",
+      "chain_id": 747474,
+      "aliases": [],
+      "explorer": "https://katanascan.com",
+      "tx_url": "https://katanascan.com/tx/{}",
+      "llama": "katana",
+      "native": {
+        "symbol": "ETH",
+        "decimals": 18,
+        "price": "coingecko:ethereum"
+      },
+      "status": "live"
+    },
+    {
+      "slug": "humanity",
+      "name": "Humanity Protocol",
+      "chain_id": 6985385,
+      "aliases": [],
+      "explorer": "https://humanity-mainnet.explorer.alchemy.com",
+      "tx_url": "https://humanity-mainnet.explorer.alchemy.com/tx/{}",
+      "llama": "humanity",
+      "native": {
+        "symbol": "H",
+        "decimals": 18,
+        "price": "coingecko:humanity"
+      },
+      "status": "live"
+    },
+    {
+      "slug": "zora",
+      "name": "Zora",
+      "chain_id": 7777777,
+      "aliases": [],
+      "explorer": "https://explorer.zora.energy",
+      "tx_url": "https://explorer.zora.energy/tx/{}",
+      "llama": "zora",
+      "native": {
+        "symbol": "ETH",
+        "decimals": 18,
+        "price": "coingecko:ethereum"
+      },
+      "status": "live"
+    },
+    {
+      "slug": "aurora",
+      "name": "Aurora",
+      "chain_id": 1313161554,
+      "aliases": [],
+      "explorer": "https://explorer.aurora.dev",
+      "tx_url": "https://explorer.aurora.dev/tx/{}",
+      "llama": "aurora",
+      "native": {
+        "symbol": "ETH",
+        "decimals": 18,
+        "price": "coingecko:ethereum"
+      },
+      "status": "live"
+    },
+    {
+      "slug": "harmony",
+      "name": "Harmony",
+      "chain_id": 1666600000,
+      "aliases": [
+        "harmonyone"
+      ],
+      "explorer": "https://explorer.harmony.one",
+      "tx_url": "https://explorer.harmony.one/tx/{}",
+      "llama": "harmony",
+      "native": {
+        "symbol": "ONE",
+        "decimals": 18,
+        "price": "coingecko:harmony"
+      },
+      "status": "retired",
+      "retired": {
+        "source": "https://beincrypto.com/harmony-sunset-network-one-ethereum-migration/",
+        "note": "retired ahead of the announced shutdown date"
+      }
+    },
+    {
+      "slug": "lighter",
+      "name": "Lighter",
+      "chain_id": null,
+      "aliases": [],
+      "explorer": "https://etherscan.io",
+      "tx_url": "https://etherscan.io/tx/{}",
+      "llama": "ethereum",
+      "native": {
+        "symbol": "ETH",
+        "decimals": 18,
+        "price": "coingecko:ethereum"
+      },
+      "status": "live"
+    },
+    {
+      "slug": "near",
+      "name": "NEAR",
+      "chain_id": null,
+      "aliases": [],
+      "explorer": null,
+      "tx_url": "https://nearblocks.io/txns/{}",
+      "llama": "near",
+      "native": {
+        "symbol": "NEAR",
+        "decimals": 24,
+        "price": "coingecko:near"
+      },
+      "status": "live"
+    },
+    {
+      "slug": "solana",
+      "name": "Solana",
+      "chain_id": null,
+      "aliases": [],
+      "explorer": "https://solscan.io",
+      "tx_url": "https://solscan.io/tx/{}",
+      "llama": "solana",
+      "native": {
+        "symbol": "SOL",
+        "decimals": 9,
+        "price": "coingecko:solana"
+      },
+      "status": "live"
+    },
+    {
+      "slug": "starkex",
+      "name": "StarkEx",
+      "chain_id": null,
+      "aliases": [],
+      "explorer": "https://etherscan.io",
+      "tx_url": "https://etherscan.io/tx/{}",
+      "llama": "ethereum",
+      "native": {
+        "symbol": "ETH",
+        "decimals": 18,
+        "price": "coingecko:ethereum"
+      },
+      "status": "live"
+    },
+    {
+      "slug": "starknet",
+      "name": "Starknet",
+      "chain_id": null,
+      "aliases": [],
+      "explorer": "https://voyager.online",
+      "tx_url": "https://voyager.online/tx/{}",
+      "llama": "starknet",
+      "native": {
+        "symbol": "ETH",
+        "decimals": 18,
+        "price": "coingecko:ethereum"
+      },
+      "status": "live"
+    },
+    {
+      "slug": "sui",
+      "name": "Sui",
+      "chain_id": null,
+      "aliases": [],
+      "explorer": null,
+      "tx_url": "https://suivision.xyz/txblock/{}",
+      "llama": "sui",
+      "native": {
+        "symbol": "SUI",
+        "decimals": 9,
+        "price": "coingecko:sui"
+      },
+      "status": "live"
+    },
+    {
+      "slug": "zksync_lite",
+      "name": "zkSync Lite",
+      "chain_id": null,
+      "aliases": [],
+      "explorer": "https://etherscan.io",
+      "tx_url": "https://etherscan.io/tx/{}",
+      "llama": "ethereum",
+      "native": {
+        "symbol": "ETH",
+        "decimals": 18,
+        "price": "coingecko:ethereum"
+      },
+      "status": "live"
+    }
+  ]
+}

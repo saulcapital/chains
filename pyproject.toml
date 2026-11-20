@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "saul-chains"
+version = "0.1.0"
+description = "Shared chain registry (ids, names, explorers, retired chains) for saulcapital repos"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+
+[tool.setuptools]
+packages = ["saul_chains"]
+
+[tool.setuptools.package-data]
+saul_chains = ["chains.json"]

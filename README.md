@@ -49,6 +49,7 @@ tag `vX.Y.Z`, then bump the pin in each consumer.
 ## Consumers
 
 - yamDiscBot (`bot/services/chain_support.py`)
+- shared-labels (`code/evm_rpc.py`, `code/evm_rpc_pool.py`, `code/evm_address_history.py`, `code/hypersync_transfers.py`, Across/Hop/Superform loops)
 
 ## Test
 
